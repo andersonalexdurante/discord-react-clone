@@ -10,16 +10,16 @@ export const Container = styled.div`
   max-height: calc(100vh - 46px);
   overflow-y: scroll;
 
-  ::webkit-scrollbar {
+  ::-webkit-scrollbar {
       width: 4px;
   }
 
-  ::webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
       background-color: var(--tertiary);
       border-radius: 4px;
   }
 
-  ::webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
       background-color: var(--secondary)
   }
 `;
